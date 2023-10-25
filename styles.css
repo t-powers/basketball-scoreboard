@@ -4,7 +4,9 @@ body {
   background-image: url(images/basketballcourt.jpg);
   background-repeat: no-repeat;
   background-position: center;
+
   color: white;
+
 }
 
 @font-face {
@@ -31,7 +33,7 @@ p {
 button {
   font-size: 22px;
 }
-button:hover{
+button:hover {
   color: white;
-  background-color: #B54213;
+  background-color: #b54213;
 }
