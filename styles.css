@@ -31,3 +31,7 @@ p {
 button {
   font-size: 22px;
 }
+button:hover{
+  color: white;
+  background-color: #B54213;
+}
