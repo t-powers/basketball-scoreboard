@@ -1,12 +1,11 @@
 body {
   margin: 0;
   height: 150%;
+  width: auto;
   background-image: url(images/basketballcourt.jpg);
   background-repeat: no-repeat;
   background-position: center;
-
   color: white;
-
 }
 
 @font-face {
