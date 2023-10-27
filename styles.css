@@ -37,7 +37,7 @@ p {
   font-family: "digital-7";
 }
 
-.score {
+#scoreHome, #scoreGuest {
   font-size: 70px;
 }
 button {
