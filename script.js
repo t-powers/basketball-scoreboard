@@ -12,3 +12,23 @@ function guestOne() {
   guestCount += 1;
   scoreGuest.innerText = guestCount;
 }
+
+function homeTwo() {
+  homeCount += 2;
+  scoreHome.innerText = homeCount;
+}
+
+function guestTwo() {
+  guestCount += 2;
+  scoreGuest.innerText = guestCount;
+}
+
+function homeThree() {
+  homeCount += 3;
+  scoreHome.innerText = homeCount;
+}
+
+function guestThree() {
+  guestCount += 3;
+  scoreGuest.innerText = guestCount;
+}
