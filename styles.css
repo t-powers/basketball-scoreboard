@@ -48,3 +48,8 @@ button:hover {
   color: white;
   background-color: #b54213;
 }
+
+.final {
+  padding-top: 30px;
+  text-align: center;
+}
