@@ -37,4 +37,6 @@ function guestThree() {
 function saving() {
   game = homeCount + " to " + guestCount;
   lastScore.innerText += game;
+  homeCount = 0;
+  guestCount = 0;
 }
