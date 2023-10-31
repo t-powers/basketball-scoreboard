@@ -1,5 +1,6 @@
 let scoreHome = document.getElementById("scoreHome");
 let scoreGuest = document.getElementById("scoreGuest");
+let saveGame = document.getElementById("saveGame");
 let homeCount = 0;
 let guestCount = 0;
 
@@ -31,4 +32,10 @@ function homeThree() {
 function guestThree() {
   guestCount += 3;
   scoreGuest.innerText = guestCount;
+}
+
+function saving() {
+  game = homeCount + " to " + guestCount;
+  lastScore.innerText += game;
+  \n
 }
