@@ -40,4 +40,6 @@ function saving() {
   lastScore.innerText += game;
   homeCount = 0;
   guestCount = 0;
+  scoreHome.innerText = homeCount;
+  scoreGuest.innerText = guestCount;
 }

@@ -1,7 +1,5 @@
 body {
   margin: 0;
-  height: 100%;
-  width: auto;
   background-image: url(images/basketball-6488065_1280.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -53,6 +51,7 @@ button:hover {
   padding-top: 90px;
   text-align: center;
 }
-#lastScore{
+#lastScore {
   font-size: 30px;
+
 }
