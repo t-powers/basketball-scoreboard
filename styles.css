@@ -53,3 +53,6 @@ button:hover {
   padding-top: 90px;
   text-align: center;
 }
+#lastScore{
+  font-size: 30px;
+}
