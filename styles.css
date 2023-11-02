@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  background-image: url(images/basketball-6488065_1280.png);
-  background-repeat: no-repeat;
-  background-position: center;
+
   color: white;
   background-color: black;
 }
@@ -15,6 +13,10 @@ body {
 .container {
   display: flex;
   justify-content: space-around;
+  background-image: url(images/basketball-6488065_1280.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 450px;
 }
 
 .main {
@@ -53,5 +55,4 @@ button:hover {
 }
 #lastScore {
   font-size: 30px;
-
 }
