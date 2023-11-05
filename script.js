@@ -43,3 +43,11 @@ function saving() {
   scoreHome.innerText = homeCount;
   scoreGuest.innerText = guestCount;
 }
+
+function winner() {
+  if (homeCount > guestCount) {
+    return "Home Won";
+  } else {
+    return "Guest Won";
+  }
+}
