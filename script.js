@@ -36,7 +36,7 @@ function guestThree() {
 
 //display final score and set count to zero
 function saving() {
-  game = "Home " + homeCount + " to " + "Guest " + guestCount;
+  game = "Home " + homeCount + " to " + "Guest " + guestCount + "\n";
   lastScore.innerText += game;
   homeCount = 0;
   guestCount = 0;
